@@ -1,0 +1,19 @@
+server:
+  port: 8081
+    
+spring:
+  application:
+    name: movie
+        
+#  resources:
+#    static-locations: classpath:templates/,classpath:static/
+
+#  mvc:
+#    view:
+#      suffix: .html
+    
+  http:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
